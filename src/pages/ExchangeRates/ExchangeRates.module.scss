@@ -1,0 +1,21 @@
+.exchangeRates {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 50px;
+  border-radius: 5px;
+  min-height: 440px;
+  min-width: 400px;
+  box-sizing: border-box;
+
+  .exchangeRatesListWrapper {
+    overflow-y: scroll;
+    height: 430px;
+    font-size: 20px;
+  }
+
+  h3 {
+    margin-top: 0;
+    text-align: center;
+  }
+}

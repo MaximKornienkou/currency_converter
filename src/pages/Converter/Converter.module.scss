@@ -1,0 +1,33 @@
+.converter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px 70px;
+  border-radius: 5px;
+  min-height: 440px;
+  box-sizing: border-box;
+  font-size: 20px;
+
+  div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+
+  input {
+    font-size: 20px;
+  }
+
+  select {
+    font-size: 20px;
+  }
+
+  label {
+    margin-bottom: 5px;
+  }
+
+  h3 {
+    margin-bottom: 0;
+    text-align: center;
+  }
+}

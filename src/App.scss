@@ -1,0 +1,18 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: black;
+  height: 95vh;
+}
+
+.App>main {
+  background-color: rgb(245, 249, 255);
+  border: solid 3px rgb(0, 107, 183);
+  z-index: 4;
+}
+
+h1 {
+  color: black;
+}
